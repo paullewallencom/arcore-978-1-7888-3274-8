@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        android:layout_weight="0.8"
+        android:textColor="@android:color/background_dark"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/user_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:gravity="end"
+        android:text="10"
+        android:textColor="@android:color/background_dark"
+        android:textAlignment="textEnd" />
+
+</LinearLayout>
